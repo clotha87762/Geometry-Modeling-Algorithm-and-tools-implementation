@@ -1,0 +1,73 @@
+﻿Build started 2016/7/7 下午 07:08:20.
+     1>Project "C:\Users\USER\Desktop\104\02\ISM\DC\SolverExample\SolverExample.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Library\Taucs\ /IC:\Library\CSparse\Include /I"C:\Users\USER\Desktop\104course\02\Interactive Shape Manipulation\DifferentialCoordinate\Lib\lib_win64" /I"C:\Users\USER\Desktop\104course\02\Interactive Shape Manipulation\DifferentialCoordinate\Lib\\" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _USE_MATH_DEFINES /D NOMINMAX /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Main.cpp
+         Main.cpp
+     1>c:\users\user\desktop\104\02\ism\dc\leastsquaressparsesolver.h(337): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\user\desktop\104\02\ism\dc\leastsquaressparsesolver.h(352): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\user\desktop\104\02\ism\dc\leastsquaressparsesolver.h(365): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\user\desktop\104\02\ism\dc\main.cpp(250): warning C4996: 'mbstowcs': This function or variable may be unsafe. Consider using mbstowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(528) : see declaration of 'mbstowcs'
+     1>c:\users\user\desktop\104\02\ism\dc\main.cpp(253): warning C4996: 'mbstowcs': This function or variable may be unsafe. Consider using mbstowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(528) : see declaration of 'mbstowcs'
+     1>c:\users\user\desktop\104\02\ism\dc\main.cpp(300): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\desktop\104\02\ism\dc\main.cpp(312): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\desktop\104\02\ism\dc\main.cpp(447): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\user\desktop\104\02\ism\dc\main.cpp(451): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\user\desktop\104\02\ism\dc\main.cpp(798): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\desktop\104\02\ism\dc\main.cpp(801): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\desktop\104\02\ism\dc\main.cpp(935): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\user\desktop\104\02\ism\dc\main.cpp(972): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\desktop\104\02\ism\dc\main.cpp(974): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\desktop\104\02\ism\dc\main.cpp(1110): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\desktop\104\02\ism\dc\main.cpp(1328): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\desktop\104\02\ism\dc\main.cpp(1345): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\desktop\104\02\ism\dc\main.cpp(1460): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\desktop\104\02\ism\dc\main.cpp(1616): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\desktop\104\02\ism\dc\main.cpp(1629): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\desktop\104\02\ism\dc\main.cpp(1852): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\user\desktop\104\02\ism\dc\main.cpp(1854): warning C4101: 'a' : unreferenced local variable
+     1>c:\users\user\desktop\104\02\ism\dc\main.cpp(1854): warning C4101: 'b' : unreferenced local variable
+     1>c:\users\user\desktop\104\02\ism\dc\main.cpp(1854): warning C4101: 'c' : unreferenced local variable
+     1>c:\users\user\desktop\104\02\ism\dc\main.cpp(1908): warning C4101: 'a' : unreferenced local variable
+     1>c:\users\user\desktop\104\02\ism\dc\main.cpp(1908): warning C4101: 'b' : unreferenced local variable
+     1>c:\users\user\desktop\104\02\ism\dc\main.cpp(1908): warning C4101: 'c' : unreferenced local variable
+     1>c:\users\user\desktop\104\02\ism\dc\main.cpp(2026): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\desktop\104\02\ism\dc\main.cpp(2149): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\user\desktop\104\02\ism\dc\main.cpp(2151): warning C4101: 'a' : unreferenced local variable
+     1>c:\users\user\desktop\104\02\ism\dc\main.cpp(2151): warning C4101: 'b' : unreferenced local variable
+     1>c:\users\user\desktop\104\02\ism\dc\main.cpp(2151): warning C4101: 'c' : unreferenced local variable
+     1>c:\users\user\desktop\104\02\ism\dc\main.cpp(2211): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\desktop\104\02\ism\dc\main.cpp(2215): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\desktop\104\02\ism\dc\main.cpp(2262): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\USER\Desktop\104\02\ISM\DC\SolverExample\Debug\SolverExample.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\USER\Desktop\104\02\ISM\DC\Lib\lib_win64 /LIBPATH:C:\Users\USER\Desktop\104\02\ISM\DC\Lib\lapack /LIBPATH:"C:\Program Files\OpenMesh 6.0\lib" /LIBPATH:"C:\Users\USER\Desktop\104\02\ISM\DC\Lib\OpenMesh-6.0\build\Build\lib" lapack_win64_MT.lib blas_win64_MT.lib OpenMeshCored.lib OpenMeshToolsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\USER\Desktop\104\02\ISM\DC\SolverExample\Debug\SolverExample.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\USER\Desktop\104\02\ISM\DC\SolverExample\Debug\SolverExample.lib" /MACHINE:X86 /SAFESEH:NO CSparse08.lib Debug\glm.obj
+         Debug\Main.obj
+         Debug\mtxlib.obj
+         Debug\trackball.obj
+         Debug\OpenFileDialog.obj
+         CSparse08.lib(cs_compress.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+     1>glm.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         Finished generating code
+     1>CSparse08.lib(cs_compress.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'CSparse08.lib(cs_compress.obj)' or at 'C:\Users\USER\Desktop\104\02\ISM\DC\SolverExample\Debug\vc90.pdb'; linking object as if no debug info
+     1>CSparse08.lib(cs_entry.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'CSparse08.lib(cs_entry.obj)' or at 'C:\Users\USER\Desktop\104\02\ISM\DC\SolverExample\Debug\vc90.pdb'; linking object as if no debug info
+     1>CSparse08.lib(cs_multiply.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'CSparse08.lib(cs_multiply.obj)' or at 'C:\Users\USER\Desktop\104\02\ISM\DC\SolverExample\Debug\vc90.pdb'; linking object as if no debug info
+     1>CSparse08.lib(cs_transpose.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'CSparse08.lib(cs_transpose.obj)' or at 'C:\Users\USER\Desktop\104\02\ISM\DC\SolverExample\Debug\vc90.pdb'; linking object as if no debug info
+     1>CSparse08.lib(cs_util.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'CSparse08.lib(cs_util.obj)' or at 'C:\Users\USER\Desktop\104\02\ISM\DC\SolverExample\Debug\vc90.pdb'; linking object as if no debug info
+     1>CSparse08.lib(cs_cumsum.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'CSparse08.lib(cs_cumsum.obj)' or at 'C:\Users\USER\Desktop\104\02\ISM\DC\SolverExample\Debug\vc90.pdb'; linking object as if no debug info
+     1>CSparse08.lib(cs_malloc.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'CSparse08.lib(cs_malloc.obj)' or at 'C:\Users\USER\Desktop\104\02\ISM\DC\SolverExample\Debug\vc90.pdb'; linking object as if no debug info
+     1>CSparse08.lib(cs_scatter.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'CSparse08.lib(cs_scatter.obj)' or at 'C:\Users\USER\Desktop\104\02\ISM\DC\SolverExample\Debug\vc90.pdb'; linking object as if no debug info
+         SolverExample.vcxproj -> C:\Users\USER\Desktop\104\02\ISM\DC\SolverExample\Debug\SolverExample.exe
+     1>Done Building Project "C:\Users\USER\Desktop\104\02\ISM\DC\SolverExample\SolverExample.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.28

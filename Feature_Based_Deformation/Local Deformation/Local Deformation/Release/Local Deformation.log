@@ -1,0 +1,20 @@
+﻿Build started 2016/2/26 下午 02:50:38.
+     1>Project "C:\Users\USER\Desktop\104course\02\Interactive Shape Manipulation\Local Deformation\Local Deformation\Local Deformation.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Library\glut /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\trackball.cpp
+         trackball.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\USER\Desktop\104course\02\Interactive Shape Manipulation\Local Deformation\Release\Local Deformation.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Library\glut kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\USER\Desktop\104course\02\Interactive Shape Manipulation\Local Deformation\Release\Local Deformation.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\USER\Desktop\104course\02\Interactive Shape Manipulation\Local Deformation\Release\Local Deformation.lib" /MACHINE:X86 /SAFESEH:NO opengl32.lib glu32.lib glut32.lib Release\Example.obj
+         Release\glm.obj
+         Release\mtxlib.obj
+         Release\trackball.obj
+         Generating code
+     1>c:\users\user\desktop\104course\02\interactive shape manipulation\local deformation\glm.cpp(287): warning C4700: uninitialized local variable 'width' used
+     1>c:\users\user\desktop\104course\02\interactive shape manipulation\local deformation\glm.cpp(288): warning C4700: uninitialized local variable 'height' used
+         Finished generating code
+         Local Deformation.vcxproj -> C:\Users\USER\Desktop\104course\02\Interactive Shape Manipulation\Local Deformation\Release\Local Deformation.exe
+     1>Done Building Project "C:\Users\USER\Desktop\104course\02\Interactive Shape Manipulation\Local Deformation\Local Deformation\Local Deformation.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.70

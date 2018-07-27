@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D126B009-95B1-462F-AC74-659A654A15F5}</ProjectGuid>
+    <RootNamespace>SolverExample</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.30501.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\USER\Desktop\104\02\ISM\DC\glut;C:\Users\USER\Desktop\104\02\ISM\DC\Lib\CSparse\Include;C:\Users\USER\Desktop\104\02\ISM\DC\Lib\Taucs;C:\Users\USER\Desktop\104\02\ISM\DC\Lib\armadillo_bits;C:\Users\USER\Desktop\104\02\ISM\DC\Lib\arma;C:\Users\USER\Desktop\104\02\ISM\DC\Lib\lib_win64;C:\Users\USER\Desktop\104\02\ISM\DC\Lib\Eigen;C:\Program Files\OpenMesh 6.0\include;C:\Users\USER\Desktop\104\02\ISM\DC\Lib\OpenMesh-6.0\build\Build\lib;C:\Users\USER\Desktop\104\02\ISM\DC\Lib\MeshLib\algorithm;C:\Users\USER\Desktop\104\02\ISM\DC\Lib\MeshLib\core;C:\Users\USER\Desktop\104\02\ISM\DC;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\USER\Desktop\104\02\ISM\DC\glut;C:\Users\USER\Desktop\104\02\ISM\DC\Lib\Taucs;C:\Users\USER\Desktop\104\02\ISM\DC\Lib\CSparse\lib;C:\Users\USER\Desktop\104\02\ISM\DC\Lib\lib_win64;C:\Users\USER\Desktop\104\02\ISM\DC\Lib\armadillo_bits;C:\Users\USER\Desktop\104\02\ISM\DC\Lib\Eigen;C:\Program Files\OpenMesh 6.0\lib;C:\Users\USER\Desktop\104\02\ISM\DC\Lib\OpenMesh-6.0\build\Build\lib;$(LibraryPath)</LibraryPath>
+    <ReferencePath>C:\Users\USER\Desktop\104course\02\Interactive Shape Manipulation\SolverExample\Lib;$(ReferencePath)</ReferencePath>
+    <SourcePath>C:\Users\USER\Desktop\104\02\ISM\DC\Lib\armadillo_bits;C:\Users\USER\Desktop\104\02\ISM\DC\Lib\Eigen;C:\Users\USER\Desktop\104\02\ISM\DC\Lib\Eigen\src;$(SourcePath)</SourcePath>
+    <ExecutablePath>C:\Users\USER\Desktop\104\02\ISM\DC\Lib\lib_win64;$(ExecutablePath)</ExecutablePath>
+    <LibraryWPath>C:\Users\USER\Desktop\104course\02\Interactive Shape Manipulation\DifferentialCoordinate\Lib\lib_win64;$(LibraryWPath)</LibraryWPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Users\USER\Desktop\104\02\ISM\DC\Lib\arma;C:\Users\USER\Desktop\104\02\ISM\DC\Lib\CSparse\Include;C:\Users\USER\Desktop\104\02\ISM\DC\Lib\lapack;C:\Users\USER\Desktop\104\02\ISM\DC\Lib\lib_win64;C:\Users\USER\Desktop\104\02\ISM\DC\Lib\Taucs;C:\Users\USER\Desktop\104\02\ISM\DC\glut;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\USER\Desktop\104\02\ISM\DC\Lib\arma;C:\Users\USER\Desktop\104\02\ISM\DC\Lib\CSparse\lib;C:\Users\USER\Desktop\104\02\ISM\DC\Lib\lapack;C:\Users\USER\Desktop\104\02\ISM\DC\Lib\lib_win64;C:\Users\USER\Desktop\104\02\ISM\DC\Lib\Taucs;C:\Users\USER\Desktop\104\02\ISM\DC\glut;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\Library\Taucs\;C:\Library\CSparse\Include;C:\Users\USER\Desktop\104course\02\Interactive Shape Manipulation\DifferentialCoordinate\Lib\lib_win64;C:\Users\USER\Desktop\104course\02\Interactive Shape Manipulation\DifferentialCoordinate\Lib\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_USE_MATH_DEFINES;NOMINMAX;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>CSparse08.lib %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalLibraryDirectories>C:\Users\USER\Desktop\104\02\ISM\DC\Lib\lib_win64;C:\Users\USER\Desktop\104\02\ISM\DC\Lib\lapack;C:\Program Files\OpenMesh 6.0\lib;C:\Users\USER\Desktop\104\02\ISM\DC\Lib\OpenMesh-6.0\build\Build\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <AdditionalDependencies>lapack_win64_MT.lib;blas_win64_MT.lib;OpenMeshCored.lib;OpenMeshToolsd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>C:\Users\USER\Desktop\104\02\ISM\DC\glut;C:\Users\USER\Desktop\104\02\ISM\DC\Lib\arma;C:\Users\USER\Desktop\104\02\ISM\DC\Lib\lapack;C:\Users\USER\Desktop\104\02\ISM\DC\Lib\lib_win64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>lapack_win64_MT.lib;blas_win64_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/SAFESEH:NO %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\glm.cpp" />
+    <ClCompile Include="..\Main.cpp" />
+    <ClCompile Include="..\mtxlib.cpp" />
+    <ClCompile Include="..\trackball.cpp" />
+    <ClCompile Include="OpenFileDialog.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\glm.h" />
+    <ClInclude Include="..\LeastSquaresSparseSolver.h" />
+    <ClInclude Include="..\mtxlib.h" />
+    <ClInclude Include="..\TimeRecorder.h" />
+    <ClInclude Include="..\trackball.h" />
+    <ClInclude Include="Mesh2.h" />
+    <ClInclude Include="OpenFileDialog.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

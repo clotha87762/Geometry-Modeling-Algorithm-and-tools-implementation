@@ -1,0 +1,24 @@
+﻿Build started 2016/6/30 上午 01:35:27.
+     1>Project "C:\Users\USER\Desktop\104\02\ISM\DC\SolverExample\SolverExample.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\USER\Desktop\104\02\ISM\DC\SolverExample\Release\SolverExample.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Users\USER\Desktop\104\02\ISM\DC\glut /LIBPATH:C:\Users\USER\Desktop\104\02\ISM\DC\Lib\arma /LIBPATH:C:\Users\USER\Desktop\104\02\ISM\DC\Lib\lapack /LIBPATH:C:\Users\USER\Desktop\104\02\ISM\DC\Lib\lib_win64 lapack_win64_MT.lib blas_win64_MT.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\USER\Desktop\104\02\ISM\DC\SolverExample\Release\SolverExample.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\USER\Desktop\104\02\ISM\DC\SolverExample\Release\SolverExample.lib" /MACHINE:X86 /SAFESEH /SAFESEH:NO Release\glm.obj
+         Release\Main.obj
+         Release\mtxlib.obj
+         Release\trackball.obj
+         Release\OpenFileDialog.obj
+         Generating code
+         Finished generating code
+     1>CSparse08.lib(cs_compress.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'CSparse08.lib(cs_compress.obj)' or at 'C:\Users\USER\Desktop\104\02\ISM\DC\SolverExample\Release\vc90.pdb'; linking object as if no debug info
+     1>CSparse08.lib(cs_entry.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'CSparse08.lib(cs_entry.obj)' or at 'C:\Users\USER\Desktop\104\02\ISM\DC\SolverExample\Release\vc90.pdb'; linking object as if no debug info
+     1>CSparse08.lib(cs_multiply.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'CSparse08.lib(cs_multiply.obj)' or at 'C:\Users\USER\Desktop\104\02\ISM\DC\SolverExample\Release\vc90.pdb'; linking object as if no debug info
+     1>CSparse08.lib(cs_transpose.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'CSparse08.lib(cs_transpose.obj)' or at 'C:\Users\USER\Desktop\104\02\ISM\DC\SolverExample\Release\vc90.pdb'; linking object as if no debug info
+     1>CSparse08.lib(cs_util.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'CSparse08.lib(cs_util.obj)' or at 'C:\Users\USER\Desktop\104\02\ISM\DC\SolverExample\Release\vc90.pdb'; linking object as if no debug info
+     1>CSparse08.lib(cs_cumsum.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'CSparse08.lib(cs_cumsum.obj)' or at 'C:\Users\USER\Desktop\104\02\ISM\DC\SolverExample\Release\vc90.pdb'; linking object as if no debug info
+     1>CSparse08.lib(cs_malloc.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'CSparse08.lib(cs_malloc.obj)' or at 'C:\Users\USER\Desktop\104\02\ISM\DC\SolverExample\Release\vc90.pdb'; linking object as if no debug info
+     1>CSparse08.lib(cs_scatter.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'CSparse08.lib(cs_scatter.obj)' or at 'C:\Users\USER\Desktop\104\02\ISM\DC\SolverExample\Release\vc90.pdb'; linking object as if no debug info
+         SolverExample.vcxproj -> C:\Users\USER\Desktop\104\02\ISM\DC\SolverExample\Release\SolverExample.exe
+     1>Done Building Project "C:\Users\USER\Desktop\104\02\ISM\DC\SolverExample\SolverExample.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.19
